@@ -1,3 +1,10 @@
+This is a TODO app written in react.js
+
+This app displays list of remaing TODOs and allows use to add and delete a TODO.
+
+User can delete TODOs by clicking on the TODO.
+User can add TODOs by entering the task in the input field and by clicking on add button.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
