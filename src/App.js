@@ -7,16 +7,16 @@ class App extends Component {
     todos: [
       {
         id: 1,
-        contents: "Buy Milk",
+        content: "Buy Milk",
       },
-      { id: 2, contents: "Sleep More" },
+      { id: 2, content: "Sleep More" },
     ],
   };
 
   addTodo = (todo) => {
-    const newTodos = [...this.state.todos, todo];
-    console.log(newTodos);
-    this.setState({ todos: newTodos });
+    todo.id = Math.random();
+    const todos = [...this.state.todos, todo];
+    this.setState({ todos });
   };
 
   deleteTodo = (id) => {
